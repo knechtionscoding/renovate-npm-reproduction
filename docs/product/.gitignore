@@ -1,0 +1,4 @@
+.docusaurus
+.docusaurus/*
+node_modules
+build/

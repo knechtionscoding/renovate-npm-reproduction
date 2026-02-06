@@ -1,0 +1,23 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {},
+    "storybook": {},
+    "storybook:test": {},
+    "storybook:test:flaky": {},
+    "storybook:build": {},
+    "storybook:snapshot-check": {},
+    "prettier:check": {},
+    "lint:errors": {},
+    "typecheck": {},
+    "lint": {},
+    "start": {
+      "persistent": true
+    },
+    "test": {},
+    "dev": {
+      "persistent": true,
+      "cache": false
+    }
+  }
+}

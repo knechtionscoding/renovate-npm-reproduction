@@ -1,0 +1,48 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build --",
+    "lint": "turbo run lint --",
+    "start": "turbo run start --",
+    "test": "turbo run test --",
+    "storybook": "turbo run storybook --",
+    "storybook:test": "turbo run storybook:test --",
+    "storybook:test:flaky": "turbo run storybook:test:flaky --",
+    "storybook:build": "turbo run storybook:build --",
+    "storybook:snapshot-check": "turbo run storybook:snapshot-check --",
+    "prettier:check": "turbo run prettier:check --",
+    "lint:errors": "turbo run lint:errors --",
+    "typecheck": "turbo run typecheck --",
+    "how-outdated": "python3 packages/app/scripts/generate_outdated_packages_csv.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "",
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "simple-react-calendar": "2.2.8",
+    "turbo": "^2.1.2"
+  },
+  "packageManager": "npm@11.6.2",
+  "workspaces": [
+    "packages/app"
+  ],
+  "overrides": {
+    "@types/react": "18.3.27",
+    "simple-react-calendar": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "devDependencies": {
+    "http-server": "14.1.1",
+    "wait-on": "8.0.5"
+  },
+  "msw": {
+    "workerDirectory": "packages/app/public"
+  }
+}

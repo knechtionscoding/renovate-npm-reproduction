@@ -1,0 +1,180 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended",
+        ":preserveSemverRanges",
+        "mergeConfidence:all-badges"
+    ],
+    "enabledManagers": [
+        "npm",
+        "custom.regex"
+    ],
+    "rebaseWhen": "conflicted",
+    "addLabels": [
+        "{{manager}}"
+    ],
+    "hostRules": [
+        {
+            "timeout": 120000
+        }
+    ],
+    "prHourlyLimit": 30,
+    "prConcurrentLimit": 0,
+    "branchConcurrentLimit": 0,
+    "gitIgnoredAuthors": [
+        "github-actions[bot]@users.noreply.github.com"
+    ],
+    "commitMessagePrefix": "chore({{manager}}):",
+    "packageRules": [
+        {
+            "description": "Ensure we wait 7 days before updating any package at the patch level",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "patch"
+            ],
+            "minimumReleaseAge": "7 days"
+        },
+        {
+            "description": "Limit the concurrency of npm PRs",
+            "matchManagers": [
+                "npm"
+            ],
+            "prConcurrentLimit": 25
+        },
+        {
+            "description": "Ensure we wait 30 days before updating any package at the minor level",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "minor"
+            ],
+            "minimumReleaseAge": "30 days"
+        },
+        {
+            "description": "Ensure we wait 60 days before updating any package at the major level",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "minimumReleaseAge": "60 days"
+        },
+        {
+            "description": "[AUTO-GENERATED] Security vulnerability alerts - highest priority",
+            "matchPackageNames": [
+                "*"
+            ],
+            "isVulnerabilityAlert": true,
+            "prPriority": 100,
+            "prConcurrentLimit": 0,
+            "minimumReleaseAge": "0 days",
+            "schedule": [
+                "at any time"
+            ]
+        },
+        {
+            "description": "[AUTO-GENERATED] Direct npm dependencies",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchPackageNames": [
+                "@apidevtools/swagger-cli",
+                "@apidevtools/swagger-parser",
+                "@aws-sdk/client-secrets-manager",
+                "@docusaurus/core",
+                "@docusaurus/module-type-aliases",
+                "@docusaurus/plugin-content-blog",
+                "@docusaurus/plugin-content-docs",
+                "@docusaurus/plugin-content-pages",
+                "@docusaurus/preset-classic",
+                "@docusaurus/theme-classic",
+                "@easyops-cn/docusaurus-search-local",
+                "@hookform/resolvers",
+                "@iconify/icons-material-symbols",
+                "@iconify/react",
+                "@mdx-js/react",
+                "@monaco-editor/react",
+                "@popperjs/core",
+                "@redocly/cli",
+                "@sentry/browser",
+                "@tanstack/react-query",
+                "@types/lodash",
+                "@ungap/structured-clone",
+                "axios",
+                "bootstrap",
+                "classnames",
+                "clsx",
+                "color",
+                "copy-text-to-clipboard",
+                "copy-to-clipboard",
+                "cron-converter",
+                "dagre",
+                "date-fns",
+                "date-fns-tz",
+                "diff",
+                "docusaurus-lunr-search",
+                "dotenv",
+                "fuse.js",
+                "history",
+                "install-peerdeps",
+                "js-cookie",
+                "linkify-react",
+                "linkifyjs",
+                "lodash.debounce",
+                "match-sorter",
+                "mdx-mermaid",
+                "monaco-editor",
+                "monaco-themes",
+                "openapi-types",
+                "papaparse",
+                "prism-react-renderer",
+                "qs",
+                "react",
+                "react-dom",
+                "react-dropzone",
+                "react-helmet",
+                "react-hook-form",
+                "react-infinite-scroller",
+                "react-is",
+                "react-loader-spinner",
+                "react-markdown",
+                "react-popper",
+                "react-resize-detector",
+                "react-router-dom",
+                "react-style-singleton",
+                "react-syntax-highlighter",
+                "react-visibility-sensor",
+                "react-window",
+                "reactflow",
+                "redoc",
+                "rehype-raw",
+                "remark-breaks",
+                "remark-gfm",
+                "simple-react-calendar",
+                "sql-formatter",
+                "store",
+                "swagger-cli",
+                "tailwind-merge",
+                "tinyduration",
+                "turbo",
+                "unist-util-visit",
+                "use-deep-compare",
+                "vega",
+                "vega-embed",
+                "vega-lite",
+                "zod"
+            ],
+            "prPriority": 45,
+            "prConcurrentLimit": 0
+        }
+    ],
+    "vulnerabilityAlerts": {
+        "labels": [
+            "security"
+        ]
+    }
+}
