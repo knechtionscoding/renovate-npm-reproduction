@@ -56,7 +56,7 @@
     "remark-breaks": "4.0.0",
     "remark-gfm": "3.0.1",
     "simple-react-calendar": "2.2.8",
-    "sql-formatter": "15.6.12",
+    "sql-formatter": "15.7.0",
     "store": "2.0.12",
     "tailwind-merge": "2.6.0",
     "tinyduration": "3.4.1",
