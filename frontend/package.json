@@ -22,8 +22,8 @@
   "license": "UNLICENSED",
   "description": "",
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "simple-react-calendar": "2.2.8",
     "turbo": "^2.1.2"
   },
@@ -34,8 +34,8 @@
   "overrides": {
     "@types/react": "18.3.27",
     "simple-react-calendar": {
-      "react": "^18.0.0",
-      "react-dom": "^18.0.0"
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0"
     }
   },
   "devDependencies": {
