@@ -85,7 +85,7 @@
     "@storybook/addon-styling-webpack": "2.0.0",
     "@storybook/addon-webpack5-compiler-babel": "4.0.0",
     "@storybook/react-webpack5": "9.1.17",
-    "@storybook/test-runner": "0.23.0",
+    "@storybook/test-runner": "0.24.0",
     "@svgr/webpack": "6.5.1",
     "@swc/core": "1.15.3",
     "@testing-library/jest-dom": "5.17.0",
