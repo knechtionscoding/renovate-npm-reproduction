@@ -160,7 +160,7 @@
     "jest-image-snapshot": "6.5.1",
     "jest-resolve": "^29.0.0",
     "jest-watch-typeahead": "^2.0.0",
-    "micromark-util-types": "1.1.0",
+    "micromark-util-types": "2.0.0",
     "mini-css-extract-plugin": "^2.4.5",
     "msw": "2.10.4",
     "msw-storybook-addon": "2.0.6",
