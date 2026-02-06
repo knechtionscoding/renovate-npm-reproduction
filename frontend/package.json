@@ -32,7 +32,7 @@
     "packages/app"
   ],
   "overrides": {
-    "@types/react": "18.3.27",
+    "@types/react": "18.3.28",
     "simple-react-calendar": {
       "react": "^18.0.0",
       "react-dom": "^18.0.0"
