@@ -52,7 +52,7 @@
     "react-visibility-sensor": "5.1.1",
     "react-window": "1.8.11",
     "reactflow": "11.11.4",
-    "rehype-raw": "6.1.1",
+    "rehype-raw": "7.0.0",
     "remark-breaks": "4.0.0",
     "remark-gfm": "3.0.1",
     "simple-react-calendar": "2.2.8",
