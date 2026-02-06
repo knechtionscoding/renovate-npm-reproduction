@@ -45,7 +45,7 @@
     "react-loader-spinner": "6.1.6",
     "react-markdown": "8.0.7",
     "react-popper": "2.3.0",
-    "react-resize-detector": "9.1.1",
+    "react-resize-detector": "10.0.0",
     "react-router-dom": "6.30.3",
     "react-style-singleton": "2.2.3",
     "react-syntax-highlighter": "15.6.1",
