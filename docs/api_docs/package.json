@@ -8,7 +8,7 @@
     "@apidevtools/swagger-parser": "^10.0.3",
     "@redocly/cli": "^1.34.1",
     "install-peerdeps": "^3.0.3",
-    "openapi-types": "^9.3.0",
+    "openapi-types": "^10.0.0",
     "redoc": "^2.4.0",
     "swagger-cli": "^4.0.4"
   },
