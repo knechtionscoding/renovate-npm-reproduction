@@ -27,7 +27,7 @@
     "simple-react-calendar": "2.2.8",
     "turbo": "^2.1.2"
   },
-  "packageManager": "npm@11.6.2",
+  "packageManager": "npm@11.6.3",
   "workspaces": [
     "packages/app"
   ],
