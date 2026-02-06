@@ -198,7 +198,7 @@
     "unrs-resolver": "1.11.1",
     "webpack": "^5.64.4",
     "webpack-dev-server": "^5.0.0",
-    "webpack-manifest-plugin": "^5.0.0"
+    "webpack-manifest-plugin": "^6.0.0"
   },
   "scripts": {
     "build": "SKIP_PREFLIGHT_CHECK=true node scripts/build.js",
