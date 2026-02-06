@@ -18,7 +18,7 @@
     "@docusaurus/preset-classic": "3.9.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "@easyops-cn/docusaurus-search-local": "^0.52.1",
+    "@easyops-cn/docusaurus-search-local": "^0.53.0",
     "mdx-mermaid": "^2.0.3",
     "prism-react-renderer": "^1.2.1",
     "react": "^19.0.0",
