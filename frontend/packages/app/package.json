@@ -162,7 +162,7 @@
     "jest-watch-typeahead": "^2.0.0",
     "micromark-util-types": "1.1.0",
     "mini-css-extract-plugin": "^2.4.5",
-    "msw": "2.10.4",
+    "msw": "2.10.5",
     "msw-storybook-addon": "2.0.6",
     "openapi3-ts": "4.5.0",
     "orval": "7.21.0",
