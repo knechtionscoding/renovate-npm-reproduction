@@ -83,7 +83,7 @@
     "@storybook/addon-docs": "9.1.17",
     "@storybook/addon-links": "9.1.17",
     "@storybook/addon-styling-webpack": "2.0.0",
-    "@storybook/addon-webpack5-compiler-babel": "4.0.0",
+    "@storybook/addon-webpack5-compiler-babel": "4.0.1",
     "@storybook/react-webpack5": "9.1.17",
     "@storybook/test-runner": "0.23.0",
     "@svgr/webpack": "6.5.1",
