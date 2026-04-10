@@ -29,7 +29,7 @@
     "@docusaurus/types": "3.9.2"
   },
   "overrides": {
-    "lodash-es": "4.17.23"
+    "lodash-es": "4.18.1"
   },
   "browserslist": {
     "production": [
